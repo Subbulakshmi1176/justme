@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Prathi 💜✨</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .handwritten {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+        }
+        .cursive {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+        }
+        .elegant {
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+        }
+        .romantic {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 800;
+        }
+        .script {
+            font-family: 'Inter', sans-serif;
+            font-weight: 300;
+        }
+        
+        .glitter-border {
+            background: linear-gradient(45deg, #ff9a9e, #fecfef, #fecfef, #ff9a9e);
+            background-size: 400% 400%;
+            animation: glitter 3s ease-in-out infinite;
+        }
+        
+        @keyframes glitter {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .sparkle {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sparkle::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transform: rotate(45deg);
+            animation: sparkle 2s infinite;
+        }
+        
+        @keyframes sparkle {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .bounce-hover:hover {
+            animation: bounce 0.6s ease-in-out;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 60%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            80% { transform: translateY(-5px); }
+        }
+        
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .glow {
+            box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
+        }
+        
+        .glow:hover {
+            box-shadow: 0 0 30px rgba(255, 182, 193, 0.8);
+        }
+        .dark-romance-bg {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 25%, #16213e 50%, #533483 75%, #2d1b69 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .dark-card {
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(139, 69, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        
+        .romantic-glow {
+            box-shadow: 0 0 30px rgba(139, 69, 255, 0.3), 0 0 60px rgba(139, 69, 255, 0.1);
+        }
+        
+        .romantic-glow:hover {
+            box-shadow: 0 0 40px rgba(139, 69, 255, 0.5), 0 0 80px rgba(139, 69, 255, 0.2);
+        }
+        
+        .text-romantic {
+            color: #ffffff;
+        }
+        
+        .text-romantic-accent {
+            color: #8b45ff;
+        }
+        
+        .text-romantic-gold {
+            color: #a855f7;
+        }
+        
+        .mystical-border {
+            border: 2px solid #8b45ff;
+            border-radius: 12px;
+        }
+        
+        .subtle-glitter {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .subtle-glitter::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(139, 69, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            animation: subtleSparkle 3s infinite;
+        }
+        
+        @keyframes subtleSparkle {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .glitter-text {
+            background: linear-gradient(45deg, #8b45ff, #a855f7, #8b45ff);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glitterText 2s ease-in-out infinite;
+        }
+        
+        @keyframes glitterText {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .glitter-border {
+            background: linear-gradient(45deg, #8b45ff, #a855f7, #8b45ff, #a855f7);
+            background-size: 400% 400%;
+            animation: glitterBorder 3s ease-in-out infinite;
+        }
+        
+        @keyframes glitterBorder {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .candle-flicker {
+            animation: flicker 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes flicker {
+            0% { opacity: 0.8; transform: scale(1); }
+            100% { opacity: 1; transform: scale(1.05); }
+        }
+        
+        .rose-float {
+            animation: roseFloat 4s ease-in-out infinite;
+        }
+        
+        @keyframes roseFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+        }
+    </style>
+</head>
+<body class="dark-romance-bg min-h-screen">
+    <!-- Glitter Particle Background -->
+    <canvas id="glitterCanvas" class="fixed inset-0 pointer-events-none z-0"></canvas>
+    
+    <!-- Main Content -->
+    <div class="relative z-10">
+        <!-- Header -->
+        <header class="text-center py-20 px-4">
+            <h1 class="romantic text-6xl md:text-8xl glitter-text mb-8 drop-shadow-2xl">
+                HAPPY BIRTHDAY PRATHI 🐬
+            </h1>
+            <p class="elegant text-2xl md:text-3xl text-romantic-accent mb-12">
+                You + Me = Forever Besties 😂
+            </p>
+            <div class="w-32 h-1 glitter-border mx-auto rounded-full"></div>
+        </header>
+
+
+        <!-- Friendship Quote 1 -->
+        <section class="text-center py-16 px-4">
+            <div class="max-w-4xl mx-auto">
+                <blockquote class="elegant text-2xl md:text-3xl text-romantic italic dark-card rounded-2xl p-8 shadow-2xl romantic-glow leading-relaxed">
+                    "Good friends are like stars — you don't always see them, but you know they're always there."
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Video Cards Section -->
+        <section class="py-16 px-4">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="handwritten text-4xl md:text-5xl text-center glitter-text mb-12 drop-shadow-xl">
+                    Our Amazing Memories
+                </h2>
+                
+                <!-- Navigation Buttons -->
+                <div class="flex justify-center items-center mb-12 space-x-6">
+                    <button id="prevBtn" class="mystical-border text-romantic px-8 py-4 rounded-lg elegant text-lg hover:romantic-glow transition-all duration-300 transform hover:scale-105 shadow-xl disabled:opacity-50 disabled:cursor-not-allowed subtle-glitter">
+                        ← Previous
+                    </button>
+                    <span id="pageInfo" class="elegant text-lg text-romantic-accent dark-card rounded-lg px-6 py-3 romantic-glow">
+                        Page 1 of 3
+                    </span>
+                    <button id="nextBtn" class="mystical-border text-romantic px-8 py-4 rounded-lg elegant text-lg hover:romantic-glow transition-all duration-300 transform hover:scale-105 shadow-xl disabled:opacity-50 disabled:cursor-not-allowed subtle-glitter">
+                        Next →
+                    </button>
+                </div>
+                
+                <div id="videoGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <!-- Video Cards (21 total) -->
+                    <div class="video-card group relative dark-card rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 romantic-glow subtle-glitter">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-romantic-accent/20 to-romantic-gold/20 relative">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 dark-card rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-romantic-accent border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                            <div class="absolute top-3 left-3 dark-card text-romantic px-3 py-1 rounded-lg text-xs elegant">
+                                🐬
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="handwritten text-lg text-romantic-gold mb-2">Our Forever Vibes</h3>
+                            <p class="text-sm text-romantic/70 elegant">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 💜
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Laughs That Never End</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌈
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Sunshine in My Cloudy Days</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🍭
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Sweetest Partner in Crime</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 ✨
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Sparkles of Our Friendship</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌸
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Memories Wrapped in Love</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🎶
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Our Little Jam Sessions</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌙
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Late Night Talks & Giggles</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🦋
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">My Safe Place Always</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 💫
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Dreamers Together</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🍕
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Pizza Nights & Inside Jokes</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌻
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">You're My Happy Pill</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🎀
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">The Best Chapter of My Story</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌹
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">My Constant, My Always</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 💌
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">A Hug in Human Form</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 ☀️
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Smiles That Heal Everything</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌊
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Waves of Joy With You</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🐭🐱
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Tom & Jerry Souls Forever</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 ✨
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">Bestie Goals Unlocked</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 🌺
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">No Distance Can Break Us</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card group relative bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 glow">
+                        <div class="aspect-[9/16] bg-gradient-to-br from-pink-200 to-purple-200 relative sparkle">
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-0 h-0 border-l-[12px] border-l-purple-500 border-t-[8px] border-t-transparent border-b-[8px] border-b-transparent ml-1"></div>
+                                </div>
+                            </div>
+                             <div class="absolute top-2 left-2 bg-purple-500 text-white px-2 py-1 rounded-full text-xs font-semibold">
+                                 💜
+                             </div>
+                         </div>
+                         <div class="p-4">
+                             <h3 class="handwritten text-lg text-purple-700">My Favorite Person, Always</h3>
+                            <p class="text-sm text-gray-600 mt-1">Click to play our special moment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Friendship Quote 2 -->
+        <section class="text-center py-16 px-4">
+            <div class="max-w-4xl mx-auto">
+                <blockquote class="elegant text-2xl md:text-3xl text-romantic italic dark-card rounded-2xl p-8 shadow-2xl romantic-glow leading-relaxed">
+                    "A true friend is the greatest of all blessings."
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Message for You Section -->
+        <section class="py-16 px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="handwritten text-4xl md:text-5xl text-center glitter-text mb-12 drop-shadow-xl">
+                    Message for You
+                </h2>
+                
+                <!-- Message Input -->
+                <div class="dark-card rounded-2xl p-8 shadow-2xl romantic-glow mb-8">
+                    <div class="mb-6">
+                        <label class="elegant text-romantic text-lg mb-3 block">Write a message for Prathi:</label>
+                        <textarea 
+                            id="messageInput" 
+                            class="w-full h-32 dark-card backdrop-blur-sm rounded-xl p-6 text-lg text-romantic placeholder-romantic/60 resize-none focus:outline-none focus:ring-2 focus:ring-romantic-accent/50 transition-all duration-300 border border-romantic-accent/30"
+                            placeholder="Type your special message here..."
+                            maxlength="1000"
+                        ></textarea>
+                        <div class="flex justify-between items-center mt-2">
+                            <span id="charCount" class="text-sm text-romantic/60">0/1000 characters</span>
+                            <button id="saveMessage" class="mystical-border text-romantic px-8 py-4 rounded-lg elegant text-lg hover:romantic-glow transition-all duration-300 transform hover:scale-105 shadow-xl subtle-glitter">
+                                Save Message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Display Saved Message -->
+                <div id="savedMessageContainer" class="dark-card rounded-2xl p-8 shadow-2xl romantic-glow" style="display: none;">
+                    <h3 class="handwritten text-2xl text-romantic-gold mb-4">Your Message:</h3>
+                    <div id="savedMessage" class="elegant text-romantic text-lg leading-relaxed mb-4"></div>
+                    <div class="flex justify-between items-center text-sm text-romantic/60">
+                        <span id="messageDate"></span>
+                        <button id="editMessage" class="text-romantic-accent hover:text-romantic-gold transition-colors duration-300">
+                            Edit Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-12 px-4 dark-card">
+            <p class="elegant text-xl text-romantic-gold mb-6">
+                Made with love for my bestie
+            </p>
+            <div class="mt-6 pt-6 border-t border-romantic-accent/30">
+                <p class="elegant text-sm text-romantic/60">
+                    Copyright © 2024 | Designed for Prathi
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Glitter Particle Animation
+        const canvas = document.getElementById('glitterCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+        
+        const particles = [];
+        const particleCount = 50;
+        
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.size = Math.random() * 2 + 1;
+                this.opacity = Math.random() * 0.5 + 0.2;
+                this.hue = Math.random() * 60 + 300; // Pink to purple range
+            }
+            
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+                
+                this.opacity += (Math.random() - 0.5) * 0.01;
+                this.opacity = Math.max(0.1, Math.min(0.7, this.opacity));
+            }
+            
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = this.opacity;
+                ctx.fillStyle = `hsl(${this.hue}, 70%, 70%)`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Add sparkle effect
+                ctx.fillStyle = 'white';
+                ctx.beginPath();
+                ctx.arc(this.x - this.size/3, this.y - this.size/3, this.size/3, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+        
+        // Initialize particles
+        for (let i = 0; i < particleCount; i++) {
+            particles.push(new Particle());
+        }
+        
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            
+            requestAnimationFrame(animate);
+        }
+        
+        animate();
+        
+        // Video card click handlers
+        const videoLinks = [
+            'videos/vedio1.mp4',  // Memory 1
+            'videos/vedio2.mp4',  // Memory 2
+            'videos/vedio3.mp4',  // Memory 3
+            'videos/vedio4.mp4',  // Memory 4
+            'videos/vedio5.mp4',  // Memory 5
+            'videos/vedio6.mp4',  // Memory 6
+            'videos/vedio7.mp4',  // Memory 7
+            'videos/vedio8.mp4',  // Memory 8
+            'videos/vedio9.mp4',  // Memory 9
+            'videos/vedio10.mp4', // Memory 10
+            'videos/vedio11.mp4', // Memory 11
+            'videos/vedio12.mp4', // Memory 12
+            'videos/vedio13.mp4', // Memory 13
+            'videos/vedio14.mp4', // Memory 14
+            'videos/vedio15.mp4', // Memory 15
+            'videos/vedio16.mp4', // Memory 16
+            'videos/vedio17.mp4', // Memory 17
+            'videos/vedio18.mp4', // Memory 18
+            'videos/vedio19.mp4', // Memory 19
+            'videos/vedio20.mp4', // Memory 20
+            'videos/vedio21.mp4'  // Memory 21
+        ];
+
+        // Cute sticker overlays for each video card
+        const stickerEmojis = [
+            '💜','🌸','🦋','✨','🍭','🌙','💫','🌻','🍕','🌈','🎀','🌹','💌','☀️','🌊','🐬','🐱','🐭','⭐','🪩','🎉',
+            '💖','💗','💘','💎','🔮','🧸','🎈','🎵','🎶','🎬','📸','📹','🎧','🌟','🌷','🌺','🌼','🌻','🌙','🌞','🌠',
+            '🪽','🕊️','🐼','🐻','🐰','🐥','🐣','🦄','🦊','🦋','🐝','🍒','🍓','🍉','🧁','🍰','🍫','🍩','🍪','🥤','🍹',
+            '🎀','🎗️','👑','💄','💅','🪞','🎁','🎀','🫶','🤍','💟','💫','✨','🌈','🧿','🔗','📀','🧃','🩷'
+        ];
+        document.querySelectorAll('.video-card').forEach((card, index) => {
+            const container = card.querySelector('div.relative');
+            if (!container) return;
+            const sticker = document.createElement('div');
+            sticker.className = 'absolute top-2 right-2 bg-white/70 backdrop-blur-sm text-purple-700 px-2 py-1 rounded-full text-xs font-semibold shadow';
+            sticker.textContent = stickerEmojis[index % stickerEmojis.length];
+            sticker.setAttribute('aria-hidden', 'true');
+            container.appendChild(sticker);
+        });
+
+        document.querySelectorAll('.video-card').forEach((card, index) => {
+            card.addEventListener('click', () => {
+                if (videoLinks[index]) {
+                    // Store current video index and show video player
+                    localStorage.setItem('currentVideoIndex', index);
+                    showVideoPlayer(index);
+                } else {
+                    alert(`Memory ${index + 1} - Video file not found!`);
+                }
+            });
+        });
+        
+        // Message functionality
+        const messageInput = document.getElementById('messageInput');
+        const saveButton = document.getElementById('saveMessage');
+        const charCount = document.getElementById('charCount');
+        const savedMessageContainer = document.getElementById('savedMessageContainer');
+        const savedMessage = document.getElementById('savedMessage');
+        const messageDate = document.getElementById('messageDate');
+        const editButton = document.getElementById('editMessage');
+        
+        // Load saved message
+        function loadMessage() {
+            const saved = localStorage.getItem('prathiMessage');
+            const savedTime = localStorage.getItem('prathiMessageTime');
+            if (saved) {
+                savedMessage.textContent = saved;
+                messageDate.textContent = `Saved on ${savedTime}`;
+                savedMessageContainer.style.display = 'block';
+                messageInput.value = saved;
+                updateCharCount();
+            }
+        }
+        
+        // Save message
+        function saveMessage() {
+            const message = messageInput.value.trim();
+            if (message) {
+                const now = new Date();
+                const timeString = now.toLocaleDateString() + ' at ' + now.toLocaleTimeString();
+                
+                localStorage.setItem('prathiMessage', message);
+                localStorage.setItem('prathiMessageTime', timeString);
+                
+                savedMessage.textContent = message;
+                messageDate.textContent = `Saved on ${timeString}`;
+                savedMessageContainer.style.display = 'block';
+                
+                // Show success feedback
+                saveButton.textContent = 'Saved!';
+                saveButton.classList.add('bg-green-600');
+                setTimeout(() => {
+                    saveButton.textContent = 'Save Message';
+                    saveButton.classList.remove('bg-green-600');
+                }, 2000);
+            } else {
+                alert('Please write a message first!');
+            }
+        }
+        
+        // Edit message
+        function editMessage() {
+            savedMessageContainer.style.display = 'none';
+            messageInput.focus();
+        }
+        
+        // Update character count
+        function updateCharCount() {
+            const count = messageInput.value.length;
+            charCount.textContent = `${count}/1000 characters`;
+            charCount.className = `text-sm ${count > 900 ? 'text-red-400' : 'text-romantic/60'}`;
+        }
+        
+        // Event listeners
+        saveButton.addEventListener('click', saveMessage);
+        editButton.addEventListener('click', editMessage);
+        messageInput.addEventListener('input', updateCharCount);
+        
+        // Initialize
+        loadMessage();
+        
+        // Pagination functionality
+        let currentPage = 1;
+        const cardsPerPage = 7; // Show 7 cards per page (adjust based on screen size)
+        const totalCards = document.querySelectorAll('.video-card').length;
+        const totalPages = Math.ceil(totalCards / cardsPerPage);
+        
+        function updatePagination() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const pageInfo = document.getElementById('pageInfo');
+            const videoGrid = document.getElementById('videoGrid');
+            
+            // Update page info
+            pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+            
+            // Update button states
+            prevBtn.disabled = currentPage === 1;
+            nextBtn.disabled = currentPage === totalPages;
+            
+            // Show/hide cards based on current page
+            const cards = document.querySelectorAll('.video-card');
+            cards.forEach((card, index) => {
+                const cardNumber = index + 1;
+                const startCard = (currentPage - 1) * cardsPerPage + 1;
+                const endCard = currentPage * cardsPerPage;
+                
+                if (cardNumber >= startCard && cardNumber <= endCard) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeIn 0.5s ease-in-out';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+        
+        // Add fade-in animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Event listeners for navigation buttons
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentPage > 1) {
+                currentPage--;
+                updatePagination();
+            }
+        });
+        
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if (currentPage < totalPages) {
+                currentPage++;
+                updatePagination();
+            }
+        });
+        
+        // Initialize pagination
+        updatePagination();
+        
+        // Responsive pagination - adjust cards per page based on screen size
+        function adjustCardsPerPage() {
+            const screenWidth = window.innerWidth;
+            let newCardsPerPage = 7; // default
+            
+            if (screenWidth >= 1280) { // xl screens
+                newCardsPerPage = 8;
+            } else if (screenWidth >= 1024) { // lg screens
+                newCardsPerPage = 6;
+            } else if (screenWidth >= 768) { // md screens
+                newCardsPerPage = 4;
+            } else { // mobile
+                newCardsPerPage = 3;
+            }
+            
+            if (newCardsPerPage !== cardsPerPage) {
+                cardsPerPage = newCardsPerPage;
+                totalPages = Math.ceil(totalCards / cardsPerPage);
+                if (currentPage > totalPages) {
+                    currentPage = totalPages;
+                }
+                updatePagination();
+            }
+        }
+        
+        // Update on window resize
+        window.addEventListener('resize', adjustCardsPerPage);
+        adjustCardsPerPage();
+        
+        // Video player functionality
+        function showVideoPlayer(videoIndex) {
+            // Hide main content
+            document.querySelector('.relative.z-10').style.display = 'none';
+            
+            // Create video player modal
+            const videoPlayer = document.createElement('div');
+            videoPlayer.id = 'videoPlayer';
+            videoPlayer.innerHTML = `
+                <div class="fixed inset-0 bg-black/90 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+                    <div class="bg-white rounded-3xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
+                        <!-- Video Player Header -->
+                        <div class="bg-gradient-to-r from-pink-400 to-purple-500 p-4 flex items-center justify-between">
+                            <h3 class="handwritten text-2xl text-white" id="videoTitle">Loading...</h3>
+                            <button id="closeVideo" class="text-white hover:text-pink-200 text-3xl font-bold">×</button>
+                        </div>
+                        
+                        <!-- Video Container -->
+                        <div class="relative bg-black">
+                            <video id="mainVideo" class="w-full h-auto max-h-[60vh] mx-auto" controls>
+                                <source src="${videoLinks[videoIndex]}" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="absolute top-3 right-3 bg-white/70 backdrop-blur-sm text-purple-700 px-3 py-1 rounded-full text-sm font-semibold shadow" aria-hidden="true">${stickerEmojis[videoIndex % stickerEmojis.length]}</div>
+                        </div>
+                        
+                        <!-- Navigation Controls -->
+                        <div class="p-6 bg-gradient-to-br from-pink-50 to-purple-50">
+                            <div class="flex justify-between items-center">
+                                <button id="prevVideo" class="bg-gradient-to-r from-pink-400 to-purple-500 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-500 hover:to-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                                    ← Previous Memory
+                                </button>
+                                
+                                <span id="videoCounter" class="cursive text-lg text-purple-600 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2">
+                                    Memory ${videoIndex + 1} of ${videoLinks.length}
+                                </span>
+                                
+                                <button id="nextVideo" class="bg-gradient-to-r from-pink-400 to-purple-500 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-500 hover:to-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg disabled:opacity-50 disabled:cursor-not-allowed">
+                                    Next Memory →
+                                </button>
+                            </div>
+                            
+                            <!-- Back to Gallery Button -->
+                            <div class="text-center mt-4">
+                                <button id="backToGallery" class="bg-gradient-to-r from-gray-400 to-gray-500 text-white px-8 py-3 rounded-full font-semibold hover:from-gray-500 hover:to-gray-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+                                    ← Back to Gallery
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(videoPlayer);
+            
+            // Update video title
+            const videoTitles = [
+                'Our Forever Vibes', 'Laughs That Never End', 'Sunshine in My Cloudy Days', 'Sweetest Partner in Crime',
+                'Sparkles of Our Friendship', 'Memories Wrapped in Love', 'Our Little Jam Sessions', 'Late Night Talks & Giggles',
+                'My Safe Place Always', 'Dreamers Together', 'Pizza Nights & Inside Jokes', 'You\'re My Happy Pill',
+                'The Best Chapter of My Story', 'My Constant, My Always', 'A Hug in Human Form', 'Smiles That Heal Everything',
+                'Waves of Joy With You', 'Tom & Jerry Souls Forever', 'Bestie Goals Unlocked', 'No Distance Can Break Us',
+                'My Favorite Person, Always'
+            ];
+            
+            document.getElementById('videoTitle').textContent = videoTitles[videoIndex];
+            
+            // Update button states
+            document.getElementById('prevVideo').disabled = videoIndex === 0;
+            document.getElementById('nextVideo').disabled = videoIndex === videoLinks.length - 1;
+            
+            // Event listeners
+            document.getElementById('closeVideo').addEventListener('click', hideVideoPlayer);
+            document.getElementById('backToGallery').addEventListener('click', hideVideoPlayer);
+            document.getElementById('prevVideo').addEventListener('click', () => navigateVideo(videoIndex - 1));
+            document.getElementById('nextVideo').addEventListener('click', () => navigateVideo(videoIndex + 1));
+            
+            // Keyboard navigation
+            document.addEventListener('keydown', handleVideoKeyboard);
+
+            // Update current index and handle playback/error
+            localStorage.setItem('currentVideoIndex', String(videoIndex));
+            const videoEl = document.getElementById('mainVideo');
+            if (videoEl) {
+                videoEl.addEventListener('loadedmetadata', () => {
+                    const v = /** @type {HTMLVideoElement} */ (videoEl);
+                    v.play().catch(() => {
+                        // Autoplay might be blocked; controls remain for manual play
+                    });
+                });
+                videoEl.addEventListener('error', () => {
+                    alert('This video could not be loaded. Please check the file exists in the videos folder.');
+                });
+            }
+        }
+        
+        function hideVideoPlayer() {
+            const videoPlayer = document.getElementById('videoPlayer');
+            if (videoPlayer) {
+                videoPlayer.remove();
+                document.querySelector('.relative.z-10').style.display = 'block';
+                document.removeEventListener('keydown', handleVideoKeyboard);
+            }
+        }
+        
+        function navigateVideo(newIndex) {
+            if (newIndex >= 0 && newIndex < videoLinks.length) {
+                hideVideoPlayer();
+                localStorage.setItem('currentVideoIndex', String(newIndex));
+                showVideoPlayer(newIndex);
+            }
+        }
+        
+        function handleVideoKeyboard(event) {
+            switch(event.key) {
+                case 'Escape':
+                    hideVideoPlayer();
+                    break;
+                case 'ArrowLeft':
+                    const currentIndex = parseInt(localStorage.getItem('currentVideoIndex') || '0');
+                    if (currentIndex > 0) {
+                        navigateVideo(currentIndex - 1);
+                    }
+                    break;
+                case 'ArrowRight':
+                    const currentIndex2 = parseInt(localStorage.getItem('currentVideoIndex') || '0');
+                    if (currentIndex2 < videoLinks.length - 1) {
+                        navigateVideo(currentIndex2 + 1);
+                    }
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
