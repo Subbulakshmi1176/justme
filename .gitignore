@@ -1,4 +1,10 @@
-node_modules/
-dist/
-.next/
-.env
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs (just in case)
+*.log
